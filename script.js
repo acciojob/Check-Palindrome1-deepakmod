@@ -3,13 +3,13 @@
 function palindrome(str){
     let i=0,j=str.length-1;
     while(i<j){
-        while(str[i]===" "){
+        while(str[i]==" "){
             i++;
         }
-        while(str[j]===" "){
+        while(str[j]==" "){
             j--;
         }
-        if(str[i]!==str[j])
+        if(str[i]!=str[j])
             return false;
         
         i++;
